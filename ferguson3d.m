@@ -29,8 +29,8 @@ syms u
 theta_0=pi/4;theta_1=pi/4; alpha=5;
 r0=[0 0 0];
 r1=[2 0 0];
-t0=[alpha*cos(theta_0) alpha*sin(theta_0) 0];
-t1=[alpha*cos(theta_1) alpha*cos(theta_1) 1];
+t0=[alpha*cos(theta_0) alpha*sin(theta_0) alpha*cos(pi/4)];
+t1=[alpha*cos(theta_1) alpha*cos(theta_1) alpha*sin(pi/4)];
 U = [1 u u^2 u^3];
 
 C=[1 0 0 0; 0 0 1 0;-3 3 -2 -1;2 -2 1 1];
